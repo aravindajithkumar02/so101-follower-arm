@@ -46,6 +46,12 @@ Press `Ctrl+C` to stop any script.
 
 ---
 
+## Demo
+
+[![Pick and place demo](media/arm_pick_approach.jpg)](https://youtu.be/baFJPxRAoQY?is=en2iOb77NFQVlpzF)
+
+Pick and place — screwdriver. Arm moves from an upright position to home, then picks up a screwdriver and returns. Target position measured manually using `test_arm.py` and hardcoded as waypoints. Motion is interpolated to avoid snapping between positions.
+
 ## Calibration
 
 LeRobot stores calibration at:
